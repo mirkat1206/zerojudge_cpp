@@ -1,5 +1,7 @@
 此repository為[高中生解題系統](https://zerojudge.tw/)的AC code（c++）
 
+帳號為[炭烤海苔](https://zerojudge.tw/UserStatistic?id=74539)
+
 一方面拿來備份
 
 一分面希望能幫助剛踏入寫程式領域的新手們
