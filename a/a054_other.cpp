@@ -9,18 +9,16 @@ int en[26] = { 	1 , 0 , 9 , 8 , 7 , 6 , 5 , 4 , 9 , 3 , 2 , 2 , 1 ,
 int main()
 {
 	char input[10];
-	while( scanf("%s", input )!=EOF )
-	{
-		int sum = 0 ;
-		for( int i=0 ; i<9 ; i++ )
-			sum += ( input[i] - '0' )*( 8 - i );
-		sum += ( input[8] - '0' );
+	scanf("%s", input );
+	int sum = 0 ;
+	for( int i=0 ; i<9 ; i++ )
+		sum += ( input[i] - '0' )*( 8 - i );
+	sum += ( input[8] - '0' );
 
-		int c = 10*(sum%10!=0) - (sum%10) ;
-		for( int i=0 ; i<26 ; i++ )
-			if( en[i]==c )
-				printf("%c", i + 'A' );
-		printf("\n");
-	}
+	int c = 10*(sum%10!=0) - (sum%10) ;
+	for( int i=0 ; i<26 ; i++ )
+		if( en[i]==c )
+			printf("%c", i + 'A' );
+	printf("\n");
 	return 0;
 }
