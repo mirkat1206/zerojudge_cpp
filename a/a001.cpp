@@ -3,8 +3,8 @@
 
 int main()
 {
-	char input[100000];
-	while( scanf("%s", input )!=EOF )
-		printf("hello, %s\n", input );
+	char input[100];
+	scanf("%s", input );
+	printf("hello, %s\n", input );
 	return 0;
 }
