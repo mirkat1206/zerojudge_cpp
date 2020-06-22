@@ -4,23 +4,21 @@
 int main()
 {
 	int a, b, c, d, e, f;
-	while( scanf("%d%d%d%d%d%d", &a , &b , &c , &d , &e , &f )!=EOF )
+	scanf("%d%d%d%d%d%d", &a , &b , &c , &d , &e , &f );
+	if( (a==0 && b==0 && c!=0) || (d==0 && e==0 && f!=0) )
+		printf("No answer\n");
+	else if( b*d==a*e )
 	{
-		if( (a==0 && b==0 && c!=0) || (d==0 && e==0 && f!=0) )
-			printf("No answer\n");
-		else if( b*d==a*e )
-		{
-			if( b*f==c*e )
-				printf("Too many\n");
-			else
-				printf("No answer\n");
-		}
+		if( b*f==c*e )
+			printf("Too many\n");
 		else
-		{
-			printf("x=%.2lf\n", (double) ( c*e - b*f )/( a*e - b*d ) );
-			printf("y=%.2lf\n", (double) ( c*d - a*f )/( b*d - a*e ) );
-		}		
+			printf("No answer\n");
 	}
+	else
+	{
+		printf("x=%.2lf\n", (double) ( c*e - b*f )/( a*e - b*d ) );
+		printf("y=%.2lf\n", (double) ( c*d - a*f )/( b*d - a*e ) );
+	}		
 	return 0;
 }
 /*
