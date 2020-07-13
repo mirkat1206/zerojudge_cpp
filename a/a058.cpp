@@ -4,20 +4,18 @@
 int main()
 {
 	int n;
-	while( scanf("%d", &n )!=EOF )
+	scanf("%d", &n );
+	int buf, zero = 0, one = 0, two = 0 ;
+	while( n-- )
 	{
-		int buf, zero = 0, one = 0, two = 0 ;
-		while( n-- )
-		{
-			scanf("%d", &buf );
-			if( buf%3==0 )
-				zero++ ;
-			else if( buf%3==1 )
-				one++ ;
-			else
-				two++ ;
-		}
-		printf("%d %d %d\n", zero , one , two );
+		scanf("%d", &buf );
+		if( buf%3==0 )
+			zero++ ;
+		else if( buf%3==1 )
+			one++ ;
+		else
+			two++ ;
 	}
+	printf("%d %d %d\n", zero , one , two );
 	return 0;
 }
