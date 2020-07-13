@@ -11,12 +11,10 @@ int gcd(int x, int y)	// x>=y
 int main()
 {
 	int a, b;
-	while( scanf("%d%d", &a , &b )!=EOF )
-	{
-		if( a>=b )
-			printf("%d\n", gcd( a , b ) );
-		else
-			printf("%d\n", gcd( b , a ) );
-	}
+	scanf("%d%d", &a , &b );
+	if( a>=b )
+		printf("%d\n", gcd( a , b ) );
+	else
+		printf("%d\n", gcd( b , a ) );
 	return 0;
 }
