@@ -52,19 +52,17 @@ int main()
 {
 	setup();
 	int n, m;
-	while( scanf("%d%d", &n , &m )!=EOF )
-	{
-		bool flag = 0 ;
-		for( int i=n ; i<=m ; i++ )
-			if( armstrong[i] )
-			{
-				flag = 1 ;
-				printf("%d ", i );
-			}
-		if( flag )
-			printf("\n");
-		else
-			printf("none\n");
-	}
+	scanf("%d%d", &n , &m );
+	bool flag = 0 ;
+	for( int i=n ; i<=m ; i++ )
+		if( armstrong[i] )
+		{
+			flag = 1 ;
+			printf("%d ", i );
+		}
+	if( flag )
+		printf("\n");
+	else
+		printf("none\n");
 	return 0;
 }
