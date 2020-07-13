@@ -5,16 +5,14 @@
 int main()
 {
 	int input;
-	while( scanf("%d", &input )!=EOF )
+	scanf("%d", &input );
+	int output = 0 ;
+	while( input>0 )
 	{
-		int output = 0 ;
-		while( input>0 )
-		{
-			output *= 10 ;
-			output += input%10 ;
-			input /= 10 ;
-		}
-		printf("%d\n", output );
+		output *= 10 ;
+		output += input%10 ;
+		input /= 10 ;
 	}
+	printf("%d\n", output );
 	return 0;
 }
