@@ -1,4 +1,4 @@
-此 repository 為[高中生解題系統zerojudge](https://zerojudge.tw/)的 解答 AC code（c++）
+此為[高中生解題系統zerojudge](https://zerojudge.tw/)的C++ AC code
 
 帳號為[炭烤海苔](https://zerojudge.tw/UserStatistic?id=74539)
 
