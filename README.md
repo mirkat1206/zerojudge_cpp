@@ -11,3 +11,15 @@
 複製貼上對你的coding毫無幫助
 
 建議自己先嘗試，真的毫無頭緒再來參考我的code
+
+---
+
+另外，高中生解題系統 zerojudge 沒辦法找自己以前寫過的文章，在這邊簡單做個連結備份。
+
+應該還有更多的，不過找不到了QQ
+
+[e253: a + b problem - 毫無頭緒的進來呦~](http://163.32.92.10/ShowThread?postid=18902&reply=0)
+
+[b900: 3. 蠕動小蟲 - 測資可以從這裡複製喔~](https://zerojudge.tw/ShowThread?postid=13510&reply=0)
+
+[d563: 等值首尾和 - 解題想法](https://zerojudge.tw/ShowThread?postid=13424&reply=0)
