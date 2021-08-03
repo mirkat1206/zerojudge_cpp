@@ -23,3 +23,5 @@
 [b900: 3. 蠕動小蟲 - 測資可以從這裡複製喔~](https://zerojudge.tw/ShowThread?postid=13510&reply=0)
 
 [d563: 等值首尾和 - 解題想法](https://zerojudge.tw/ShowThread?postid=13424&reply=0)
+
+[e156: 良心題: 求和 - Re:遞迴與邏輯運算子](https://zerojudge.tw/ShowThread?postid=18306&reply=17524#18306)
